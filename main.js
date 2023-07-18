@@ -72,7 +72,7 @@ if (!fs.existsSync(configFolderPath)) {
 // Verifica se o arquivo info.json existe e está vazio, senão cria ou reconstrói a estrutura inicial
 if (!fs.existsSync(infoFilePath) || fs.readFileSync(infoFilePath, 'utf8').trim() === '') {
   const initialInfo = {
-    LeaguePath: 'C:\\Riot Games\\League of Legends\\Config',
+    LeaguePath: 'E:\\Riot Games\\League of Legends\\Config',
     ConfigLocked: false,
     Mastery: 0,
   };
